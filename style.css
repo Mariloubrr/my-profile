@@ -1,0 +1,112 @@
+
+body {
+	background-color: #FDF2E6;
+	font-family: 'Aleo', serif; 
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+h1 {
+	color: #621B00;
+	letter-spacing: 5px; 
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2, h3 {
+	font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+	color: rgb(120, 95, 90);
+	font-size: 24px
+}
+
+h3 {
+	color: rgb(115, 90, 95);
+	font-weight: lighter;
+}
+li {
+	font-weight: bolder;
+	margin-top: 50px;
+} 
+
+a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	color: rgb(200, 80, 85);
+	font-size: 24px;
+
+}
+a:hover{
+	font-weight: 600;
+	color: rgb(100, 40, 45);
+}
+
+/* custom design with class and id */
+
+.container {
+	background: white;
+	padding: 40px; 
+	box-shadow: 0px 0px 30px rgba(200, 200, 200, 3);
+	border-radius: 15px;
+	width: 700px;
+	margin: 50px auto;
+}
+@media (max-width: 720px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 350px;
+	}
+}
+
+#profil {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 50%
+}
+
+#look {
+	width: 200px;
+	border-radius: 15px;
+}
+
+#look:hover {
+	width: 170px;
+	box-shadow: 0px 0px 15px black;
+}
+
+#voyage {
+	width: 200px;
+	border-radius: 15px;
+}
+
+#plat {
+	width: 200px;
+	border-radius: 15px;
+}
+
+.list-inline {
+	list-style: none;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+.list-inline li { 
+	display: inline;
+	padding: 30px;
+ }
+
+ .list-inline img {
+ 	width: 50px;
+ }
+
+
